@@ -25,7 +25,7 @@ public class VerificadorNumeroConta {
       // Aqui é impresso uma mensagem de erro, mostrando a mensagem associada à exceção:
       System.out.println("Erro: " + e.getMessage());
     } finally {
-            scanner.close();
+      scanner.close();
     }
   }
 
